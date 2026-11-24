@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: villa-service
+  namespace: villa
+spec:
+  type: LoadBalancer
+  selector:
+    app: villa
+  ports:
+    - port: 80
+      targetPort: 8000
