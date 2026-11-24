@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: villa
-          image: abintony/villa:latest
+          image: abintony/villa:1
           ports:
             - containerPort: 8000
